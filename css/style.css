@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example 1.0.1
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2012, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+body{
+  padding-top: 10px;
+}
+
+
+
+
+
+
+#summaryLoading{
+	display:none;
+	text-align:center;
+
+	
+}
+#summaryStats{
+	display:none;
+	
+
+}
+
+#summaryStatsCiteCount{
+	font-size:500%;
+	color:#090;
+}
+#summaryStatsAuthorCount{
+	font-size:500%;
+	color:#069;	
+}
+
+#summaryStats .well{
+	
+	padding-top:30px;
+}
+
+
+.locationLine{
+	position:absolute; width:550px; height:1px; left:-200px; top:250px; border-bottom:solid 1px #000;
+}
+
+.locationPin{
+	height:15px; width:15px; background-color:#0C3; position:absolute; left:0px; top:-6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .25);
+
+}
+
+
+.trainCatHolder{ 
+ 	padding:2px;
+	float:left;
+	
+}
+.trainCatHolder span{
+	font-size:9px;
+	color:#333;
+ }
+
+
+#summaryCiteDetail{
+	
+	
+}
+
+#summaryCiteDetail div{
+ 	margin-bottom:15px;
+	font-family:monospace;
+	cursor:pointer;
+	margin-left:5px;
+	
+}
+
+#summaryCiteDetail div:hover, #summaryAuthorDetail div:hover{
+	background-color:#FFC;
+}
+
+#summaryAuthorDetail div{
+	font-size: 22px;
+	padding: 10px;
+	cursor:pointer;
+	
+}
+
+
+
+
+.summaryCiteDetailContext{
+	padding-left:20px;
+	padding-top:10px;
+	display:none;
+}
+
+
+
+/*
+
+.trainSetences h5::-moz-selection {
+	background-color: #ffb7b7;
+}
+.trainSetences h5::selection {
+	background-color: #ffb7b7;
+}
+*/
+
+
+
+.eventNetworkNode{
+	
+	fill:#333;	
+	stroke:#fff;		
+}
+
+.eventNetworkLabel{
+	font-size:8px;
+	fill: #333;
+  	background-color:#000;
+	 
+}
+
+.egoLink{
+	stroke: #333;
+	opacity: 0.3;
+	fill: none;
+	stroke-width: 6px;
+}
+.d3ToolTip{
+	position: absolute;
+	z-index: 90000;
+	visibility: hidden;
+	background-color:#fff;
+	border-radius:5px;
+	border:solid 1px #333;
+	max-width:350px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
