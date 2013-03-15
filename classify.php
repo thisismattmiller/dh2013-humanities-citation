@@ -51,7 +51,7 @@
 		$aug1 = "analyze";
 		$aug2 = escapeshellarg($_GET['test']);
 		
-		$results = shell_exec('python /var/www/thisismattmiller.com/web/citation/classify.py ' . $aug1 . ' ' . $aug2 . ' 2>&1');
+		$results = shell_exec('python classify.py ' . $aug1 . ' ' . $aug2 . ' 2>&1');
   		
 		
 	}else if(isset($_GET['features'])){
@@ -60,7 +60,7 @@
 		$aug1 = "features";
 		$aug2 = escapeshellarg($_GET['features']);
 		
-		$results = shell_exec('python /var/www/thisismattmiller.com/web/citation/classify.py ' . $aug1 . ' ' . $aug2 . ' 2>&1');
+		$results = shell_exec('python classify.py ' . $aug1 . ' ' . $aug2 . ' 2>&1');
   		
 		
 	}else if(isset($_GET['positive'])){

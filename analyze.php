@@ -7,11 +7,11 @@
 		  
 	
 		
-		$results = shell_exec('python /var/www/thisismattmiller.com/web/citation/extract.py "' . $_GET['filename'] . '" 2>&1');
+		$results = shell_exec('python extract.py "' . $_GET['filename'] . '" 2>&1');
 		
 
 		
-		if(@strpos($results,'File "/var/www/thisismattmiller.com/web/citation/extract.py", line')!==false){
+		if(@strpos($results,'File "extract.py", line')!==false){
 		
 			//$results =  '{"error" : true }';
 			
