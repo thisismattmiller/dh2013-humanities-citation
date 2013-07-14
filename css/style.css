@@ -47,7 +47,7 @@ body{
 
 
 .locationLine{
-	position:absolute; width:550px; height:1px; left:-200px; top:250px; border-bottom:solid 1px #000;
+	position:absolute; width:452px; height:1px; left:-115px; top:250px; border-bottom:solid 1px #000;
 }
 
 .locationPin{
